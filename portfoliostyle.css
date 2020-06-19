@@ -1,0 +1,100 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*goes over everything big main wrapper */
+.wrapper {
+    width: 1080px;
+}
+h1,
+h2{
+    display: inline-block;
+}
+
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+main
+{
+    background-color: rgb(223, 52, 223);
+    padding: 15px;
+}
+#main-image {
+    width: 450px;
+    border: 30px lightgray;
+}
+}
+/*this is the whole top section*/
+.card {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+}
+.title {
+    background-color: gray
+    color: white
+    padding 10px;
+}
+
+.top-section {
+    width: 520px;
+    margin-left: 10px;
+    height: 333px;
+}
+
+p{
+    padding: 10px;
+}
+a{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.bottom-section {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-section > .card {
+width: 32%;
+}
+
+.bottom-section > .card > img {
+    width: 100%;
+}
+.technologies {
+    width: 50px;
+}
+
+.bottom-section .tech {
+    padding: 10px
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: rgb(44, 110, 44);
+    box-shadow:  2px 2px lightslategray;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
