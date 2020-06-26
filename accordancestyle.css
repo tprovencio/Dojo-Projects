@@ -1,0 +1,167 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 1080px;
+}
+nav {
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: -95px;
+    margin-left: 103px;
+}
+nav > a {
+    text-decoration: none;
+    color:rgb(51, 49, 49);
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+.search-container{
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#searchimg {
+    margin-left: -12px;
+    margin-bottom: -4px;
+    border-radius: 5px;
+}
+
+.pic-section {
+    border-radius: 55px;
+    padding-left: 100px;
+    
+    
+
+}
+.pic-section > img {
+    display: inherit;
+    width: 1080px;
+    background-color: grey;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.pic-section > div {
+    background-color: gray;
+    margin-right: 180px;
+    border: gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.pic-section > div >a {
+    text-decoration: none;
+    background-color: gray;
+    border: gray;
+    margin-left: 30px;
+    
+}
+span {
+    color: white;
+}
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 80%
+}
+.middle-section > h2 {
+    display: inline;
+    margin-left: 100px;
+    color: grey;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+.middle-section > button {
+    
+    color: white;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    font-size: larger;
+}
+
+.middle-section >.card {
+    width: 25%;
+    ;
+}
+.bottom-section{
+    padding-top: 30px;
+    margin-left: 110px;
+    margin-right: -90px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding: 10px;
+    border: gray;
+}
+.card > button {
+    display: block;
+   color: white;
+   background-color: lightblue; 
+   border-radius: 5px;
+   width: 80%;
+   height: 30px;
+}
+
+.card > img {
+    width: 80%;
+}
+.card > h2 {
+    display: inline-block;
+}
+
+.card > .title > img {
+    display: inline-block;
+    width: 19%;
+}
+
+.helpful-links {
+    width: 80%;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.helpful-links > .bottom-links {
+    width: 15%;
+}
+
+.bottom-links {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    display:flex;
+    
+}
+
+footer > p,a {
+    margin: 20px;
+}
+
+h3,h6 {
+    padding: 10px;
+    font-weight: lighter;
+}
+
+h6 {
+    color: gray;
+}
+
+/* for some reason i cant figure out borders on my stuff */
+
+
