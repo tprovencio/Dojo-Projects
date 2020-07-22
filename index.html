@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Index page</h1>
+    <h3>Create a user</h3>
+    <form action='/users' method='POST'>
+    {% csrf_token %}
+    Name: <input type='text'name='name'>
+    location: <input type="text" name="location">
+    language: <input type="text" name="language">
+    <textarea name="comments" id="" cols="30" rows="10"></textarea>
+    <button type='submit'>Create User</button>
+    </form>
+</body>
+</html>
+
+
